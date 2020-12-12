@@ -2,4 +2,4 @@ User-agent: *
 Disallow: */admin/
 Disallow: */tags/
 
-sitemap: https://taxsim.co.uk/sitemap.xml
+sitemap: https://fishcube.co.uk/sitemap.xml

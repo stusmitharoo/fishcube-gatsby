@@ -14,63 +14,59 @@ const HomePageTemplate = ({
   registerButton,
   whoForTitle,
   whoFor,
-  whyNotTitle,
-  whyNot,
 }) => (
-    <div>
-      <Helmet>
-        <title>{meta_title}</title>
-        <meta name='description' content={meta_description} />
-      </Helmet>
-      <section className='hero is-primary is-bold is-small'>
-        <div className='hero-body'>
-          <div className='container'>
-            <div className='columns'>
-              <div className='column is-10 is-offset-1'>
-                <div className='section'>
-                  <h1 className='title'>
-                    {title}
-                  </h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className='section section--gradient'>
+  <div>
+    <Helmet>
+      <title>{meta_title}</title>
+      <meta name='description' content={meta_description} />
+    </Helmet>
+    <section className='hero is-primary is-bold is-small'>
+      <div className='hero-body'>
         <div className='container'>
-
-          <div className='section not-mobile'>
-            <div className='columns'>
-              <div className='column is-10-desktop is-offset-1-desktop is-12-mobile'>
-                <div className='content'>
-                  <div>
-                    <div className='buttons has-addons is-centered'>
-                      <a className='is-medium button is-primary' href='https://app.taxsim.co.uk/auth/register'>
-                        {registerButton}
-                      </a>
-                    </div>
-                    <h3 className='has-text-weight-semibold is-size-2-desktop'>
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                  <Offerings gridItems={offerings.blurbs} />
-                  <h2 className='has-text-weight-semibold is-size-2'>{whoForTitle}</h2>
-                  <Conditions listItems={whoFor} />
-                  <h2 className='has-text-weight-semibold is-size-2'>{whyNotTitle}</h2>
-                  <Conditions listItems={whyNot} />
-                  <a className='is-medium button is-primary has-margin-top-40' href='https://app.taxsim.co.uk/auth/register'>
-                    {registerButton}
-                  </a>
-                </div>
+          <div className='columns'>
+            <div className='column is-10 is-offset-1'>
+              <div className='section'>
+                <h1 className='title'>
+                  {title}
+                </h1>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </div>
-  )
+      </div>
+    </section>
+    <section className='section section--gradient'>
+      <div className='container'>
+
+        <div className='section not-mobile'>
+          <div className='columns'>
+            <div className='column is-10-desktop is-offset-1-desktop is-12-mobile'>
+              <div className='content'>
+                <div>
+                  <div className='buttons has-addons is-centered'>
+                    <a className='is-medium button is-primary' href='https://app.fishcube.co.uk/auth/register'>
+                      {registerButton}
+                    </a>
+                  </div>
+                  <h3 className='has-text-weight-semibold is-size-2-desktop'>
+                    {heading}
+                  </h3>
+                  <p>{description}</p>
+                </div>
+                <Offerings gridItems={offerings.blurbs} />
+                <h2 className='has-text-weight-semibold is-size-2'>{whoForTitle}</h2>
+                <Conditions listItems={whoFor} />
+                <a className='is-medium button is-primary has-margin-top-40' href='https://app.fishcube.co.uk/auth/register'>
+                  {registerButton}
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+)
 
 HomePageTemplate.propTypes = {
   title: PropTypes.string,

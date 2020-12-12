@@ -19,8 +19,6 @@ const HomePage = ({ data }) => {
         offerings={frontmatter.offerings}
         whoForTitle={frontmatter.whoForTitle}
         whoFor={frontmatter.whoFor}
-        whyNotTitle={frontmatter.whyNotTitle}
-        whyNot={frontmatter.whyNot}
       />
     </Layout>
   )
@@ -55,10 +53,6 @@ export const pageQuery = graphql`
         }
         whoForTitle
         whoFor {
-          item
-        }
-        whyNotTitle
-        whyNot {
           item
         }
       }

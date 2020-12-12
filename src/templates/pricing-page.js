@@ -39,7 +39,6 @@ export const pricingPageQuery = graphql`
         meta_description
         registerButton
         pricing {
-          heading
           description
           plans {
             description

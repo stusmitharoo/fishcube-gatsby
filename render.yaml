@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: taxsim-gatsby
+    name: fishcube-gatsby
     env: static
     branch: production
     buildCommand: gatsby build

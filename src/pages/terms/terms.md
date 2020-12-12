@@ -20,7 +20,7 @@ meta_description: >-
     1. This document was created using a template from Docular (https://docular.net).
 
 3. Copyright notice
-    1. Copyright (c) 2020(s) of first publication Taxsim.
+    1. Copyright (c) 2020(s) of first publication Fishcube.
     2. Subject to the express provisions of these terms and conditions:
         - we, together with our licensors, own and control all the copyright and other intellectual property
                     rights in our website and the material on our website; and
@@ -250,7 +250,7 @@ meta_description: >-
 							jurisdiction of the courts of England.
 
 17. Statutory and regulatory disclosures
-    1. This website is owned and operated by Taxsim.
+    1. This website is owned and operated by Fishcube.
     2. Our principal place of business is at 11 Champney close GU35 9DX.
     3. You can contact us:
       - using our website contact form.

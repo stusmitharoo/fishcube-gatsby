@@ -114,7 +114,7 @@ meta_description: >-
     10. Deleting cookies will have a negative impact on the usability of many websites.
 
 14. Our details
-    1. This website is owned and operated by Taxsim.
+    1. This website is owned and operated by Fishcube.
     2. Our principal place of business is at 11 Champney Close GU35 9DX.
     3. You can contact us:
       - using our website contact form.
