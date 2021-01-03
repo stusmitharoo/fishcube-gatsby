@@ -1,31 +1,24 @@
 ---
 templateKey: 'home-page'
 title: Fishcube.
-meta_title: Fishing application to store your catch memories logically
+meta_title: Fishing application to store your personnel best catches logically
 meta_description: >-
-  Store images and details of your catches in different locations and with different styles of angling
-heading: Fishing application to store your catch memories logically.
+  Store images and details of your catches in different locations and with different styles of angling without sharing your best locations
+heading: Fishing application to store your personnel best catches logically.
 registerButton: Register with Fishcube
 description: >-
-  Store images and details of your catches in different locations and with different styles of angling.
+  Store images and details of your catches in different locations and with different styles of angling without sharing your best locations.
 offerings:
   blurbs:
-    - image: /img/connectBank.png
+    - image: /img/addCard.png
       text: >-
-        Connect securely to your bank and allow read only access to account transactions.
-    - image: /img/allocate.png
+        Add details including when, where with catch weights and a description of how.
+    - image: /img/addDetails.png
       text: >-
-        Allocate expenses and revenue, assign to a tax bracket and fishcube automates the process.
-    - image: /img/overview.png
+        View them logically by species in differing locations.
+    - image: /img/profile.png
       text: >-
-        Get forecast's for profit, tax and expenses per month and end of year.
-      class: >-
-        image-desktop
-    - image: /img/returns.png
-      text: >-
-        Submit tax returns using simplified pre-filled forms.
-      class: >-
-        image-hmrc
+        New features landing soon auto add weather and temperatures.
     # - image: /img/anotherYear.png
     #   text: >-
     #     Reminder and easy resubmit your return with a few small steps.
@@ -36,5 +29,7 @@ whoFor:
   - item: >-
       Never loose those images again.
   - item: >-
-      Descriptions of your catches how where when.
+      New features landing soon auto add weather and temperatures.
+  - item: >-
+      New features landing soon sort by weight and date.
 ---

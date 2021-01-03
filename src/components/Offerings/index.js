@@ -7,7 +7,7 @@ const Offerings = ({ gridItems }) => (
       <div key={item.image} className='column is-6' style={{ borderRadius: '5px' }}>
         <section className='has-margin-top-50'>
           <p className='has-text-centered'>
-            <img className={item.class} alt='' src={item.image} />
+            <img alt='' src={item.image} />
           </p>
           <p>{item.text}</p>
         </section>

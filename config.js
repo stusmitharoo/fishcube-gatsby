@@ -16,4 +16,5 @@ module.exports = {
   copyright: 'Copyright © Fishcube 2020-2021. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.
   themeColor: '#4DBA87', // Used for setting manifest and progress theme colors.
   backgroundColor: '#eceff1', // Used for setting manifest background color.
+  crispChatId: 'b1600cdf-ea31-4a64-bf7a-efd9cb4a8e95'
 }

@@ -7,10 +7,10 @@ const Pricing = ({ data }) => (
     {data.map(price => (
       <div key={price.plan} className='column has-margin-10' style={{ border: '1px solid #eaecee' }}>
         <section className='section'>
-          <h4 className='has-text-centered has-text-weight-semibold'>
+          <h4 className='is-size-1 has-text-centered has-text-primary has-text-weight-semibold'>
             {price.plan}
           </h4>
-          <h2 className='is-size-1 has-text-weight-bold has-text-primary has-text-centered'>
+          <h2 className='is-size-1 has-text-weight-bold has-text-centered'>
             {price.price === 'Free' ? '' : '£'}{price.price}
           </h2>
           <p className='has-text-weight-semibold'>{price.description}</p>

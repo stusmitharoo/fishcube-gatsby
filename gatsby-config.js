@@ -33,7 +33,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-crisp-chat',
       options: {
-        websiteId: '1dc5bf59-c7c3-4dc6-9d22-56a60acad4e5',
+        websiteId: config.crispChatId,
       },
     },
     {

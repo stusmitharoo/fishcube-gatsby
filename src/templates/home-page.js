@@ -48,7 +48,6 @@ export const pageQuery = graphql`
           blurbs {
             image
             text
-            class
           }
         }
         whoForTitle

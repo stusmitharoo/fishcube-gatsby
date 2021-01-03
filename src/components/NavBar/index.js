@@ -44,17 +44,6 @@ const NavBar = ({ toggleNavbar, isActive, logo }) => (
             <a className='navbar-item' href='https://app.fishcube.co.uk/auth/login'>
               Login
             </a>
-            <div className='navbar-item'>
-              <div className='field is-grouped'>
-                <p className='control'>
-                  <Link
-                    className='button is-primary is-outlined'
-                    to='/contact'>
-                    Contact Us
-                  </Link>
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </nav>
