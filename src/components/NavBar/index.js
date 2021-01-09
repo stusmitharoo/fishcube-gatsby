@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, graphql, StaticQuery } from 'gatsby'
-import SearchBox from '../SearchBox'
 
 const NavBar = ({ toggleNavbar, isActive, logo }) => (
   <StaticQuery
@@ -31,17 +30,10 @@ const NavBar = ({ toggleNavbar, isActive, logo }) => (
         <div className={`navbar-menu ${isActive ? 'is-active' : ''}`} id='navMenu'>
 
           <div className='navbar-end'>
-            {/* <SearchBox searchIndex={data.siteSearchIndex.index} /> */}
-            {/* <Link className='navbar-item' to='/about'>
-              About
-            </Link> */}
             <Link className='navbar-item' to='/pricing'>
               Pricing
             </Link>
-            {/* <Link className='navbar-item' to='/blog'>
-              Blog
-            </Link> */}
-            <a className='navbar-item' href='https://app.fishcube.co.uk/auth/login'>
+            <a className='navbar-item' href='https://app.fishcube.co.uk/auth'>
               Login
             </a>
           </div>
