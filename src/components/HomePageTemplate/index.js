@@ -44,7 +44,7 @@ const HomePageTemplate = ({
               <div className='content'>
                 <div>
                   <div className='buttons has-addons is-centered'>
-                    <a className='is-medium button is-primary' href='https://app.fishcube.co.uk/auth/register'>
+                    <a className='is-medium button is-primary' href='https://app.fishcube.co.uk/auth?=fishcube'>
                       {registerButton}
                     </a>
                   </div>
@@ -56,7 +56,7 @@ const HomePageTemplate = ({
                 <Offerings gridItems={offerings.blurbs} />
                 <h2 className='has-text-weight-semibold is-size-2'>{whoForTitle}</h2>
                 <Conditions listItems={whoFor} />
-                <a className='is-medium button is-primary has-margin-top-40' href='https://app.fishcube.co.uk/auth/register'>
+                <a className='is-medium button is-primary has-margin-top-40' href='https://app.fishcube.co.uk/auth?=fishcube'>
                   {registerButton}
                 </a>
               </div>
